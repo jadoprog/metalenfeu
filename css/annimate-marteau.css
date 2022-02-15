@@ -1,0 +1,93 @@
+@keyframes marteau{
+    0%{
+        transform: rotate(15deg);
+    }
+    35%{
+        transform: rotate(-90deg);
+    }
+    90%{
+        transform: rotate(15deg);
+        animation-timing-function: linear;
+
+    }
+}
+@keyframes retours-deux{
+    
+    /* initialise la position */
+    0%{
+        top: 85px;
+        left: 0px;
+        opacity: 0;
+    }
+    /* Prépare le residue */
+    20%{
+        opacity: 0;
+    }
+    20.1%{
+        top: 85px;
+        left: 0px;
+        opacity: 1;
+    }
+    /* Envoye le résidue */
+    50%{
+        opacity: 1;
+    }
+    60%{
+        top: 60px;
+        left: 15px;
+        opacity: 0;
+    }
+}
+@keyframes retours-un{
+    
+    /* initialise la position */
+    0%{
+        top: 85px;
+        left: 0px;
+        opacity: 0;
+    }
+    /* Prépare le residue */
+    20%{
+        opacity: 0;
+    }
+    20.1%{
+        top: 85px;
+        left: 0px;
+        opacity: 1;
+    }
+    /* Envoye le résidue */
+    50%{
+        opacity: 1;
+    }
+    60%{
+        top: 60px;
+        left: -15px;
+        opacity: 0;
+    }
+}
+@keyframes retours-trois{
+    
+    /* initialise la position */
+    0%{
+        top: 85px;
+        left: 0px;
+        opacity: 0;
+    }
+    /* Prépare le residue */
+    20%{
+        opacity: 0;
+    }
+    20.1%{
+        top: 85px;
+        left: 0px;
+        opacity: 1;
+    }
+    /* Envoye le résidue */
+    50%{
+        opacity: 1;
+    }
+    60%{
+        top: 55px;
+        opacity: 0;
+    }
+}

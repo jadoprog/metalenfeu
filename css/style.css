@@ -1,0 +1,329 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.body-app{
+    overflow: hidden;
+}
+.title-sec, .title-block{font-family: 'OpenSans-regular';text-transform: uppercase;font-size: 1.4em;margin: 15px 0;z-index: 1;color: wheat;}
+.title-sec{
+    margin-bottom: 50px;
+}
+.title-block{
+    font-size: 1.2em;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+/* ########################
+#                         #
+#       Style header      #
+#                         #
+########################### */
+
+header{
+    background-image: url('../image/metal-workers-2253276-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -2;
+    color: white;
+    text-transform: uppercase;
+}
+.contain-text-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-25%);
+}
+.title-header{
+
+    font-size: 4em;
+    letter-spacing: 20px;
+    margin: 0;
+    font-family: 'OpenSans-SemiBold';
+    margin-bottom: 40px;
+    width: max-content;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'OpenSans-semibold';
+}
+.link-nav{
+    margin: 0 60px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+.btn-decouvrir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.btn-decouvrir, .circle-btn-decouvrir{
+    position: absolute;
+}
+.circle-btn-decouvrir{
+
+    background-color: #ad5a23;
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+.text-decouvrir{
+    z-index: 1;
+    font-family: 'OpenSans-regular';
+    letter-spacing: 3px;
+    font-size: 1.1em;
+    margin: 0;
+    transition: 0.2s;
+}
+/* ########################
+#                         #
+#       Style about       #
+#                         #
+########################### */
+.about-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conatain-about-top{
+    width: 50%;
+    padding: 50px;
+}
+.img-about-top{
+    width: 40%;
+}
+.text-desc-about-top{
+    
+    font-family: 'OpenSans-light';
+    color: #353535;
+    letter-spacing: 0.4px;
+    font-size: 1.4em;
+}
+
+/* ##############################
+#                               #
+#       Style realisation       #
+#                               #
+################################# */
+.realisation{
+    height: 100%;
+    background-color: #ad5a23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.realisation .title-sec{
+    color: white;
+}
+.small-image, .big-image{
+    background-color: white;
+    border-radius: none;
+}
+.contain-image{
+    display: flex;
+    flex-direction: row;
+    
+}
+.big-image{
+
+    width: 500px;
+    height: 500px;
+    margin-right: 15px;
+}
+.contain-small-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 500px;
+    height: 500px;
+}
+.small-image{
+    width: 242.5px;
+    height: 242.5px;
+}
+.btn-realisation{
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-family: 'OpenSans-Regular';
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+    transition: 0.2s;
+}
+/* ##########################
+#                           #
+#       Style contact       #
+#                           #
+############################# */
+
+/* largeur et hauteur de tout les block */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'OpenSans-regular';
+    height: 100%;
+    background: url("../image/pexels-tima-miroshnichenko-5846149-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 86%;
+    justify-content: center;
+}
+.contain-parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    /* box-shadow: white 0 0 3px; */
+    border-radius: 8px;
+    z-index: 1;
+}
+.part-right{
+    width: 65%;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 8px 0 0 8px;
+}
+.part-left{
+    width: 35%;
+    background-color: #ad5a23;
+    border-radius: 0 8px 8px 0;
+}
+.iframe-google{
+    width: 100%;
+    height: 30%;
+    border-radius: 0 8px 0 0;
+}
+.contact svg{
+    height: 20px;
+}
+.small-input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.small-input div{
+    width: 45%;
+}
+
+/* Traitement des textes de droite */
+.title-informations{
+
+    font-family: 'OpenSans-semibold';
+    letter-spacing: 3px;
+    font-size: 1.3em;
+    margin: 20px 0;
+    color: white;
+}
+.informations{
+    margin: 20px;
+}
+.contact tr td:nth-child(1){
+
+    text-align: center;
+    width: 80px;
+}
+.contact td{
+    height: 50px;
+    color: white;
+}
+
+/* largeur et hauteur de tout les champs du formulaire */
+
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input, textarea{
+    border: none;
+    border-color: #d97532 !important;
+    color: white;
+    font-size: 1.1em;
+    padding: 2px 6px;
+    background-color: transparent;
+}
+input{
+    border-radius: 2px;
+    margin-bottom: 20px;
+    width: 96%;
+    font-family: 'OpenSans-regular';
+    border-bottom: solid 3px;
+    outline: none;
+}
+textarea{
+    width: 97%;
+    resize: none;
+    height: 350px;
+    border: solid 3px;
+    border-radius: 5px;
+    font-family: 'OpenSans-regular';
+    padding: 6px;
+    margin-top: 30px;
+}
+.rgpd-contain{
+    display: flex;
+    flex-direction: row;
+    color: #363636;
+    margin-top: 8px;
+}
+.rgpd-contain a{
+    color: #2f5bac;
+}
+.checkbox-rgpd{
+    width: max-content;
+    margin-right: 10px;
+}
+.btn-form-sub {
+	padding: 10px 40px;
+	font-size: 1.3em;
+	background-color: #2f5bac;
+	color: white;
+	border: none;
+	margin-top: 28px;
+    font-family: 'OpenSans-semibold';
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blur-contact {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backdrop-filter: blur(7px);
+    background-color: #ffffff12;
+}

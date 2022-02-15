@@ -1,0 +1,19 @@
+.link-nav:hover{
+    transform: translateY(-3px);
+}
+.btn-decouvrir:hover > .circle-btn-decouvrir{
+    background-color: transparent;
+    border-right: #ad5a23 solid 8px;
+    border-left: #ad5a23 solid 8px;
+    border-top: transparent solid 8px;
+    border-bottom: transparent solid 8px;
+    transform: rotate(90deg);
+}
+.btn-decouvrir:hover > .text-decouvrir{
+
+    font-size: 1.2em;
+    font-family: 'OpenSans-semibold';
+}
+.btn-realisation:hover{
+    font-size: 1.05em;
+}
